@@ -5,7 +5,7 @@ It was an academic project where probability distribution of univariate or bivar
 
 # How to RUN!
 
-1. Executing ProbDistGUI.m file GUI window will be appeared but none of the button wil work unless data file is loaded. 
+1. Executing ProbDistGUI.m file GUI window will be appeared but none of the button will work unless data file is loaded. 
 2. I have added two data file for Univariate data and Bivariate data.
 3. Load the data.
 4. For univariate data only Plot and Hist buttons work.
