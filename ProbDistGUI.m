@@ -53,10 +53,10 @@ set(fig,'Visible','on') ;
 
 % All Callback Funcitons
 function load_file(source,event)
-    filename = uigetfile('.xls','Select the data file') ; 
+    [filename, path] = uigetfile('.xls','Select the data file') ; 
     if filename ~= 0
-        data = xlsread(filename) ;
-        [row,col] = size(data) ; 
+        data = xlsread(strcat(path, filename)) ;
+        [row, col] = size(data) ; 
     end 
     if col == 1
         x = data ; % Univariate data 
@@ -199,6 +199,6 @@ function dimension_callback(source,event)
     end
 end 
 function calprob(source,event)
-    User_Input(x,r,col) ;
+    user_input(x,r,col) ;
 end
 end
