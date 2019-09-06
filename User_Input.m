@@ -1,7 +1,4 @@
-function return_value = User_Input(x,mat,col)
-% Md Mahmudul Alam
-% github.com/MahmudulAlam
-
+function return_value = user_input(x,mat,col)
 % Making the dialog box
 return_value = [] ;
 d = dialog('Position',[400 350 300 150],'Name','Calculate Probability',...

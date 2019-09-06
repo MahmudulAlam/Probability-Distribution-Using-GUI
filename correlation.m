@@ -1,5 +1,3 @@
-% Md Mahmudul Alam
-% github.com/MahmudulAlam
 function return_value = correlation(x,y) 
     n = length(x) ;
     a = n .* sum(x.*y) - sum(x) .* sum(y) ;

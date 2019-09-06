@@ -1,5 +1,3 @@
-% Md Mahmudul Alam
-% github.com/MahmudulAlam
 function return_value = trapezoidal1(x,l_limit,u_limit)
 % Integration of Univariate Data 
 mu = mean(x) ;

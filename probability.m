@@ -1,5 +1,3 @@
-% Md Mahmudul Alam
-% github.com/MahmudulAlam
 function return_value = probability(set_of_data,value)
     x = set_of_data ;
     mu = mean(x) ;

@@ -1,5 +1,3 @@
-% Md Mahmudul Alam
-% github.com/MahmudulAlam
 function return_value = trapezoidal2(mat,a1,a2,b1,b2)  
 % Function parameter(matrix,xlow,xup,ylow,yup) 
 % Integration of Bivariate data 

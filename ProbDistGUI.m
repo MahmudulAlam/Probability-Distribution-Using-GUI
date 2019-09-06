@@ -1,6 +1,4 @@
 function ProbDistGUI
-% Md Mahmudul Alam
-% github.com/MahmudulAlam
 clc , clf , clear , close all ;
 x = [] ; 
 r = [] ; 
